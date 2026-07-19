@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Catálogo - Nancy Córdoba</title>
+</head>
+<body>
+  <header>
+		<div id="Nombre">
+			<a href="#"><h2>Nancy Cordoba</h2></a>
+		</div>
+		<div id="Links-Pagina">
+			<a href="index.html">Inicio</a>
+			<a href="catalogo.html">Catálogo</a>
+			<a href="contacto.html">Contacto</a>
+		</div>
+  </header>
+
+  <div id="Titulo-Galeria">
+    <h2>Galeria</h2>
+    <p>Explora mi colección de obras, cada una contando su propia historia a través del color, la forma y la emoción.</p>
+  </div>
+  <div id="Contenedor-cards">
+    
+  </div>
+
+  <!-- Modal: se muestra al hacer click en una card -->
+  <div id="Modal-Pintura" class="modal-overlay">
+    <div class="modal-contenido">
+      <button id="cerrar-modal" class="cerrar-modal" aria-label="Cerrar">&times;</button>
+      <img id="modal-imagen" src="" alt="">
+      <div class="modal-info">
+        <h2 id="modal-titulo"></h2>
+        <p id="modal-tecnica"></p>
+        <p id="modal-estilo"></p>
+        <p id="modal-dimensiones"></p>
+        <p id="modal-descripcion"></p>
+        <div class="modal-info-inferior">
+          <span id="modal-precio" class="precio"></span>
+          <span id="modal-disponible"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+	  <p>© 2026 Nancy Córdoba. Todos los derechos reservados.</p>
+		<p>Artista Visual Contemporánea</p>
+	</footer>
+
+  <script src="/JS/catalogo.js"></script>
+</body>
+</html>

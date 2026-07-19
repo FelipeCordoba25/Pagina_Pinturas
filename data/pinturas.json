@@ -1,0 +1,93 @@
+
+[
+  {
+    "id": 1,
+    "titulo": "---",
+    "tecnica": "Tinta sobre papel ",
+    "dimensiones": "8.3 x 11.7 in -- 22 x 30 cm",
+    "precio": 350000,
+    "disponible": true,
+    "imagen": "images/Pintura1.jpeg",
+    "descripcion": "Paisaje colombiano pintado al amanecer, inspirado en el Valle del Cauca."
+  },
+  {
+    "id": 2,
+    "titulo": "---",
+    "tecnica": "Acuarela",
+    "dimensiones": "9 x 12 in -- 23 x 30 cm",
+    "precio": 180000,
+    "disponible": true,
+    "imagen": "images/Pintura2.jpeg",
+    "descripcion": "Composición floral llena de color y vida."
+  },
+  {
+    "id": 3,
+    "titulo": "---",
+    "tecnica": "Acuarela",
+    "dimensiones": "12 x 16 in -- 30 x 40 cm",
+    "precio": 180000,
+    "disponible": true,
+    "imagen": "images/Pintura3.jpeg",
+    "descripcion": "Composición floral llena de color y vida."
+  },
+  {
+    "id": 4,
+    "titulo": "---",
+    "tecnica": "Acuarela",
+    "dimensiones": "12 x 16 in -- 30 x 40 cm",
+    "precio": 180000,
+    "disponible": true,
+    "imagen": "images/Pintura4.jpeg",
+    "descripcion": "Composición floral llena de color y vida."
+  },
+  {
+    "id": 5,
+    "titulo": "---",
+    "tecnica": "Oleo pastel sobre papel",
+    "dimensiones": "12 x 16 in -- 30 x 40 cm",
+    "precio": 180000,
+    "disponible": true,
+    "imagen": "images/Pintura5.jpeg",
+    "descripcion": "Composición floral llena de color y vida."
+  },
+  {
+    "id": 6,
+    "titulo": "---",
+    "tecnica": "Oleo pastel sobre papel",
+    "dimensiones": "12 x 16 in -- 30 x 40 cm",
+    "precio": 180000,
+    "disponible": true,
+    "imagen": "images/Pintura6.jpeg",
+    "descripcion": "Composición floral llena de color y vida."
+  },
+  {
+    "id": 7,
+    "titulo": "---",
+    "tecnica": "Acuarela",
+    "dimensiones": "9 x 12 in -- 23 x 30 cm",
+    "precio": 180000,
+    "disponible": true,
+    "imagen": "images/Pintura7.jpeg",
+    "descripcion": "Composición floral llena de color y vida."
+  },
+  {
+    "id": 8,
+    "titulo": "---",
+    "tecnica": "Acuarela",
+    "dimensiones": "9.75 x 12.5 in -- 24.5 x 31.75 cm",
+    "precio": 180000,
+    "disponible": true,
+    "imagen": "images/Pintura8.jpeg",
+    "descripcion": "Composición floral llena de color y vida."
+  },
+  {
+    "id": 9,
+    "titulo": "---",
+    "tecnica": "Tinta sobre papel",
+    "dimensiones": "8.3 x 11.7 in -- 22 x 30 cm",
+    "precio": 180000,
+    "disponible": true,
+    "imagen": "images/Pintura9.jpeg",
+    "descripcion": "Composición floral llena de color y vida."
+  }
+]
