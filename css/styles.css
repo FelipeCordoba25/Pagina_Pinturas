@@ -16,6 +16,7 @@
 
 body {
     padding-top: 50px; 
+    background-color: #e6e3d1;
 }
 
         /*Estilos de letra*/
@@ -52,6 +53,41 @@ a {
     text-decoration: none;
 }
 
+/*Botón hamburguesa - oculto en desktop*/
+#menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 32px;
+    height: 32px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+#menu-toggle span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    transition: 0.3s;
+}
+
+/*Animación a "X" cuando el menú está abierto*/
+#menu-toggle.activo span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+#menu-toggle.activo span:nth-child(2) {
+    opacity: 0;
+}
+
+#menu-toggle.activo span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
 #Links-Pagina {
     margin-right: 15px;
     display: flex;
@@ -68,13 +104,15 @@ a {
     justify-content: center;
     align-items: center;
     gap: 20px;
-
     min-height: 50vh;
-    background-image: url('images/img1.jpg');
+/*
+    
+    background-image: url('images/Pintura1.jpg');
     background-repeat: no-repeat; 
     background-size: cover;       
     background-position: center;  
     background-attachment: fixed;
+*/
 }
 
 .btn-galeria {
@@ -109,11 +147,11 @@ a {
 }
 
 #Img-Info {
-    width: 100%;       
+    width: 70%;       
     max-width: 450px; 
     max-height: 500px;
     border-radius: 8px; 
-    justify-self: center; 
+    justify-self: right; 
 }
 
 #btn-contacto {
@@ -510,7 +548,7 @@ footer {
     color: var(--color-letra);
 }
 
-    /*Responsive: modal en una sola columna en pantallas pequeñas*/
+/**/
 @media (max-width: 700px) {
     .modal-contenido {
         grid-template-columns: 1fr;
@@ -518,5 +556,127 @@ footer {
 
     #modal-imagen {
         max-height: 300px;
+    }
+}
+
+/* Responsive - celulares */
+@media (max-width: 600px) {
+    header {
+        padding: 0 4%;
+    }
+
+    #Nombre {
+        font-size: 15px;
+        margin-left: 0;
+        white-space: nowrap;
+    }
+
+    /*Muestra el botón hamburguesa*/
+    #menu-toggle {
+        display: flex;
+    }
+
+    /*Menú desplegable oculto por defecto*/
+    #Links-Pagina {
+        position: fixed;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        margin-right: 0;
+        flex-direction: column;
+        gap: 0;
+        background-color: var(--color-header);
+        backdrop-filter: blur(5px);
+
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+
+    #Links-Pagina.abierto {
+        max-height: 250px;
+    }
+
+    #Links-Pagina a {
+        padding: 15px 20px;
+        font-size: 16px;
+        border-top: 1px solid rgba(0,0,0,0.1);
+    }
+
+    /* 2. Sobre la Artista: foto primero, texto después */
+    #Info {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 0 20px;
+        margin: 25px auto;
+    }
+
+    #Img-Info {
+        order: -1;
+        max-height: 320px;
+    }
+
+    #Texto-Info {
+        text-align: left;
+    }
+
+    /* 3. Botón "Ver Galería" más grande y notorio */
+    .btn-galeria {
+        width: 100%;
+        min-width: unset;
+        height: 48px;
+        font-size: 15px;
+    }
+
+    .btn-galeria2 {
+        width: 90%;
+        min-width: unset;
+        max-width: unset;
+        height: 48px;
+        margin-bottom: 40px;
+        margin-top: 15px;
+    }
+
+    #btn-galeria-dest {
+        padding: 0 20px;
+    }
+
+    /* Pinturas destacadas y catálogo: una columna */
+    #pinturas-destacadas {
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+
+    #Contenedor-cards {
+        grid-template-columns: 1fr;
+        padding: 0 4%;
+        gap: 20px;
+    }
+
+    /* 4. Imágenes menos altas y más proporcionadas en móvil */
+    .img-destacada {
+        height: 220px;
+    }
+
+    .card img {
+        height: 220px;
+    }
+
+    /* 5. Espaciado general más compacto */
+    #Titulo-Galeria {
+        margin: 30px 20px;
+    }
+
+    #Contacto-Header {
+        padding: 35px 20px;
+    }
+
+    #Contacto-Header h1 {
+        font-size: 28px;
+    }
+
+    #Contenedor-Contacto {
+        margin: 30px auto 60px auto;
+        gap: 35px;
     }
 }

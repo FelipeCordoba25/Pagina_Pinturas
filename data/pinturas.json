@@ -2,92 +2,112 @@
 [
   {
     "id": 1,
-    "titulo": "---",
+    "titulo": "Jardín en tinta",
     "tecnica": "Tinta sobre papel ",
     "dimensiones": "8.3 x 11.7 in -- 22 x 30 cm",
     "precio": 350000,
     "disponible": true,
-    "imagen": "images/Pintura1.jpeg",
-    "descripcion": "Paisaje colombiano pintado al amanecer, inspirado en el Valle del Cauca."
+    "imagen": "images/Pintura1.jpg",
+    "descripcion": "Un rincón de hongos y flores se despliega en una maraña de líneas, donde cada trazo construye textura y profundidad."
   },
   {
     "id": 2,
-    "titulo": "---",
+    "titulo": "Encuentro",
     "tecnica": "Acuarela",
     "dimensiones": "9 x 12 in -- 23 x 30 cm",
     "precio": 180000,
     "disponible": true,
-    "imagen": "images/Pintura2.jpeg",
-    "descripcion": "Composición floral llena de color y vida."
+    "imagen": "images/Pintura2.jpg",
+    "descripcion": "Una mariposa se posa sobre una flor cálida, capturando el instante breve del encuentro entre alas y pétalos."
   },
   {
     "id": 3,
-    "titulo": "---",
+    "titulo": "Rocío naranja",
     "tecnica": "Acuarela",
     "dimensiones": "12 x 16 in -- 30 x 40 cm",
     "precio": 180000,
     "disponible": true,
-    "imagen": "images/Pintura3.jpeg",
-    "descripcion": "Composición floral llena de color y vida."
+    "imagen": "images/Pintura3.jpg",
+    "descripcion": "Pétalos anaranjados se pliegan sobre sí mismos mientras gotas de rocío se detienen en su superficie."
   },
   {
     "id": 4,
-    "titulo": "---",
+    "titulo": "Plenitud",
     "tecnica": "Acuarela",
     "dimensiones": "12 x 16 in -- 30 x 40 cm",
     "precio": 180000,
     "disponible": true,
-    "imagen": "images/Pintura4.jpeg",
-    "descripcion": "Composición floral llena de color y vida."
+    "imagen": "images/Pintura4.jpg",
+    "descripcion": "Una peonía se abre en capas de rosa intenso, con su centro dorado como punto de calma entre los pétalos."
   },
   {
     "id": 5,
-    "titulo": "---",
+    "titulo": "Bodegón de la tarde",
     "tecnica": "Oleo pastel sobre papel",
     "dimensiones": "12 x 16 in -- 30 x 40 cm",
     "precio": 180000,
     "disponible": true,
-    "imagen": "images/Pintura5.jpeg",
-    "descripcion": "Composición floral llena de color y vida."
+    "imagen": "images/Pintura5.jpg",
+    "descripcion": "Un jarrón, una manzana y una copa comparten la mesa en una composición serena de luz cálida y sombras suaves."
   },
   {
     "id": 6,
-    "titulo": "---",
+    "titulo": "Cosecha",
     "tecnica": "Oleo pastel sobre papel",
     "dimensiones": "12 x 16 in -- 30 x 40 cm",
     "precio": 180000,
     "disponible": true,
-    "imagen": "images/Pintura6.jpeg",
-    "descripcion": "Composición floral llena de color y vida."
+    "imagen": "images/Pintura6.jpg",
+    "descripcion": "Cebolla, naranja y uvas se reúnen junto a los jarrones en un homenaje sencillo a los colores de la cosecha."
   },
   {
     "id": 7,
-    "titulo": "---",
+    "titulo": "Refugio del bosque",
     "tecnica": "Acuarela",
     "dimensiones": "9 x 12 in -- 23 x 30 cm",
     "precio": 180000,
     "disponible": true,
-    "imagen": "images/Pintura7.jpeg",
-    "descripcion": "Composición floral llena de color y vida."
+    "imagen": "images/Pintura7.jpg",
+    "descripcion": "Una vivienda diminuta se esconde bajo el sombrero de un hongo rojo, entre musgo, piedra y ventanas iluminadas."
   },
   {
     "id": 8,
-    "titulo": "---",
+    "titulo": "Rosas de otoño",
     "tecnica": "Acuarela",
     "dimensiones": "9.75 x 12.5 in -- 24.5 x 31.75 cm",
     "precio": 180000,
     "disponible": true,
-    "imagen": "images/Pintura8.jpeg",
-    "descripcion": "Composición floral llena de color y vida."
+    "imagen": "images/Pintura8.jpg",
+    "descripcion": "Un ramo de rosas anaranjadas despliega sus pétalos ondulados en distintos grados de apertura."
   },
   {
     "id": 9,
-    "titulo": "---",
+    "titulo": "Silencio bajo el agua",
     "tecnica": "Tinta sobre papel",
     "dimensiones": "8.3 x 11.7 in -- 22 x 30 cm",
     "precio": 180000,
     "disponible": true,
-    "imagen": "images/Pintura9.jpeg",
-    "descripcion": "Composición floral llena de color y vida."
+    "imagen": "images/Pintura9.jpg",
+    "descripcion": "Una ballena atraviesa un jardín de algas y coral poblado de peces, todo construido con líneas minuciosas de tinta."
+  },
+  {
+    "id": 10,
+    "titulo": "Mirada fiel",
+    "tecnica": "Oleo pastel sobre papel",
+    "dimensiones": "8.3 x 11.7 in -- 22 x 30 cm",
+    "precio": 180000,
+    "disponible": false,
+    "imagen": "images/Pintura10.jpg",
+    "descripcion": "Un retrato cercano captura la mirada atenta y expresiva de un perro, con la lengua fuera y las orejas alerta."
+  },
+  {
+    "id": 11,
+    "titulo": "Vida en el arrecife",
+    "tecnica": "Acuarela",
+    "dimensiones": "15.7 x 23.6 in -- 40 x 60 cm",
+    "precio": 450000,
+    "disponible": true,
+    "imagen": "images/Pintura11.jpg",
+    "descripcion": "Peces de colores vivos nadan entre corales y un caballito de mar, en una escena vibrante de vida submarina."
   }
 ]
