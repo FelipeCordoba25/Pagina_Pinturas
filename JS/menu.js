@@ -1,4 +1,4 @@
-// Menú hamburguesa para móvil
+// Menú para movil
 document.addEventListener("DOMContentLoaded", () => {
   const boton = document.getElementById("menu-toggle");
   const links = document.getElementById("Links-Pagina");

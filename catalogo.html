@@ -9,7 +9,7 @@
 <body>
   <header>
 		<div id="Nombre">
-			<a href="#"><h2>Nancy Cordoba</h2></a>
+			<h2>Nancy Cordoba</h2>
 		</div>
 		<button id="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
 			<span></span>
@@ -33,6 +33,7 @@
 
   <!-- Modal: se muestra al hacer click en una card -->
   <div id="Modal-Pintura" class="modal-overlay">
+    <button id="flecha-anterior" class="modal-flecha modal-flecha-izq" aria-label="Pintura anterior">&#10094;</button>
     <div class="modal-contenido">
       <button id="cerrar-modal" class="cerrar-modal" aria-label="Cerrar">&times;</button>
       <img id="modal-imagen" src="" alt="">
@@ -48,6 +49,7 @@
         </div>
       </div>
     </div>
+    <button id="flecha-siguiente" class="modal-flecha modal-flecha-der" aria-label="Pintura siguiente">&#10095;</button>
   </div>
 
   <footer>
