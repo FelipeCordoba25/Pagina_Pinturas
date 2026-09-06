@@ -108,8 +108,8 @@ a {
     font-size: x-large;
     
     background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255, 0.5)), url('../images/Pintura1.jpg');
-    background-repeat: no-repeat; 
-    background-size: cover;       
+    background-repeat: repeat-x; 
+    background-size: contain;       
     background-position: center;
     background-attachment: fixed; 
     
@@ -494,7 +494,9 @@ footer {
         grid-template-columns: 1fr;
         gap: 50px;
     }
+
 }
+
 
 
 /*   */
@@ -666,7 +668,38 @@ footer {
     right: 20px;
 }
 
+@media (max-width: 900px) {
+    #Info {
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        padding: 0 20px;
+        margin: 25px auto;
+    }
+
+    #Foto {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    #Img-Info {
+        order: -1;
+        max-height: 400px;
+        max-width: 200px;
+        
+    }
+}
+
 @media (max-width: 700px) {
+
+    #Info {
+        
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 0 20px;
+        margin: 25px auto;
+    }
+
     .modal-flecha {
         width: 36px;
         height: 36px;
@@ -691,6 +724,19 @@ footer {
     #modal-imagen {
         max-height: 300px;
     }
+
+    #Foto {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #Img-Info {
+        order: -1;
+        max-height: 320px;
+        max-width: 180px;
+    }
+
 }
 
 /* Responsive - celulares */
@@ -744,11 +790,18 @@ footer {
         gap: 25px;
         padding: 0 20px;
         margin: 25px auto;
+
     }
 
+    #Foto {
+        display: flex;
+        justify-content: center;
+    }
+    
     #Img-Info {
         order: -1;
-        max-height: 320px;
+        max-height: 280px;
+        max-width: 150px;
     }
 
     #Texto-Info {

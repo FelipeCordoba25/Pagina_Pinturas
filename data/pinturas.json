@@ -5,7 +5,7 @@
     "titulo": "Jardín en tinta",
     "tecnica": "Tinta sobre papel",
     "dimensiones": "8.3 x 11.7 in -- 22 x 30 cm",
-    "precio": 220,
+    "precio": "220 USD",
     "disponible": true,
     "imagen": "images/Pintura1.jpg",
     "descripcion": "Un rincón de hongos y flores se despliega en una maraña de líneas, donde cada trazo construye textura y profundidad."
@@ -15,7 +15,7 @@
     "titulo": "Encuentro",
     "tecnica": "Acuarela, papel(300g -- 100% algodón)",
     "dimensiones": "9 x 12 in -- 23 x 30 cm",
-    "precio": 220,
+    "precio": "220 USD",
     "disponible": true,
     "imagen": "images/Pintura2.jpg",
     "descripcion": "Una mariposa se posa sobre una flor cálida, capturando el instante breve del encuentro entre alas y pétalos."
@@ -25,7 +25,7 @@
     "titulo": "Rocío naranja",
     "tecnica": "Acuarela, papel(300g -- 100% algodón)",
     "dimensiones": "12 x 16 in -- 30 x 40 cm",
-    "precio": 220,
+    "precio": "220 USD",
     "disponible": true,
     "imagen": "images/Pintura3.jpg",
     "descripcion": "Pétalos anaranjados se pliegan sobre sí mismos mientras gotas de rocío se detienen en su superficie."
@@ -35,7 +35,7 @@
     "titulo": "Plenitud",
     "tecnica": "Acuarela, papel(300g -- 100% algodón)",
     "dimensiones": "12 x 16 in -- 30 x 40 cm",
-    "precio": 220,
+    "precio": "220 USD",
     "disponible": true,
     "imagen": "images/Pintura4.jpg",
     "descripcion": "Una peonía se abre en capas de rosa intenso, con su centro dorado como punto de calma entre los pétalos."
@@ -45,7 +45,7 @@
     "titulo": "Bodegón de la tarde",
     "tecnica": "Oleo pastel sobre papel",
     "dimensiones": "12 x 16 in -- 30 x 40 cm",
-    "precio": 220,
+    "precio": "220 USD",
     "disponible": true,
     "imagen": "images/Pintura5.jpg",
     "descripcion": "Un jarrón, una manzana y una copa comparten la mesa en una composición serena de luz cálida y sombras suaves.   (EN PROCESO)"
@@ -55,7 +55,7 @@
     "titulo": "Cosecha",
     "tecnica": "Oleo pastel sobre papel",
     "dimensiones": "12 x 16 in -- 30 x 40 cm",
-    "precio": 220,
+    "precio": "220 USD",
     "disponible": true,
     "imagen": "images/Pintura6.jpg",
     "descripcion": "Cebolla, naranja y uvas se reúnen junto a los jarrones en un homenaje sencillo a los colores de la cosecha."
@@ -65,7 +65,7 @@
     "titulo": "Refugio del bosque",
     "tecnica": "Acuarela, papel(300g -- 100% algodón)",
     "dimensiones": "9 x 12 in -- 23 x 30 cm",
-    "precio": 190,
+    "precio": "190 USD",
     "disponible": true,
     "imagen": "images/Pintura7.jpg",
     "descripcion": "Una vivienda diminuta se esconde bajo el sombrero de un hongo rojo, entre musgo, piedra y ventanas iluminadas."
@@ -75,7 +75,7 @@
     "titulo": "Rosas de otoño",
     "tecnica": "Acuarela sobre papel",
     "dimensiones": "9.75 x 12.5 in -- 24.5 x 31.75 cm",
-    "precio": 190,
+    "precio": "190 USD",
     "disponible": true,
     "imagen": "images/Pintura8.jpg",
     "descripcion": "Un ramo de rosas anaranjadas despliega sus pétalos ondulados en distintos grados de apertura."
@@ -85,17 +85,17 @@
     "titulo": "Silencio bajo el agua",
     "tecnica": "Tinta sobre papel",
     "dimensiones": "8.3 x 11.7 in -- 22 x 30 cm",
-    "precio": 220,
+    "precio": "220 USD",
     "disponible": true,
     "imagen": "images/Pintura9.jpg",
-    "descripcion": "Una ballena atraviesa un jardín de algas y coral poblado de peces, todo construido con líneas minuciosas de tinta.   (EN PROCESO) "
+    "descripcion": "Una ballena atraviesa un jardín de algas y coral poblado de peces, todo construido con líneas minuciosas de tinta.   (EN PROCESO)"
   },
   {
     "id": 10,
     "titulo": "Mirada fiel",
     "tecnica": "Oleo pastel sobre lienzo",
     "dimensiones": "8.3 x 11.7 in -- 22 x 30 cm",
-    "precio": 0,
+    "precio": " N/A ",
     "disponible": false,
     "imagen": "images/Pintura10.jpg",
     "descripcion": "Un retrato cercano captura la mirada atenta y expresiva de un perro, con la lengua fuera y las orejas alerta."
@@ -105,7 +105,7 @@
     "titulo": "Vida en el arrecife",
     "tecnica": "Acuarela sobre lienzo",
     "dimensiones": "15.7 x 23.6 in -- 40 x 60 cm",
-    "precio": 2200,
+    "precio": "2200 USD",
     "disponible": true,
     "imagen": "images/Pintura11.jpg",
     "descripcion": "Peces de colores vivos nadan entre corales y un caballito de mar, en una escena vibrante de vida submarina."
