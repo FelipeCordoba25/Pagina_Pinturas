@@ -668,6 +668,13 @@ footer {
     right: 20px;
 }
 
+/*iOS Safari (y WhatsApp en iPhone) no soporta background-attachment:fixed y no muestra la imagen*/
+@media (max-width: 900px) {
+    #Artista {
+        background-attachment: scroll;
+    }
+}
+
 @media (max-width: 900px) {
     #Info {
         grid-template-columns: 1fr 1fr;
